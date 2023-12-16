@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+## Ticket Cancellation Solution:-
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. We will provide a "Cancel Reservation" button corresponding to each active ticket on My tickets page.
+2. When user tries to cancel we will check in our backend if the showtime has more than 1 hour left , if yes then only cancel reservation else reservation cannot be cancelled.
+3. Assuming in future there is a payment method for reserving tickets , we will first process the refund for the reservation and then delete the ticket from the tickets table using the ticket id and user id.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## -> RUN THE APP
+npm install --force
+npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ->Images References
+movies - google images
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+logo and banners - self designed in canva
 
-### `npm test`
+## icons :
+profile icon - https://t3.ftcdn.net/jpg/02/76/20/36/240_F_276203644_16oA91FeeWEoGzDrwMU2bZhTl0hQPr2H.jpg
+social media icons - https://cdn-icons-png.flaticon.com/128/2111/2111463.png 
+info icon - https://cdn-icons-png.flaticon.com/128/471/471713.png
+copyright icon - https://cdn-icons-png.flaticon.com/128/3524/3524375.png
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## locations images :
+melbourne image- https://images.unsplash.com/photo-1545044846-351ba102b6d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVsYm91cm5lfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60
 
-### `npm run build`
+sydney image- https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3lkbmV5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+brisbane image- https://images.unsplash.com/photo-1623027588467-24b2124f70b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnJpc2JhbmUlMjBjaXR5fGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+gold coast image- https://images.unsplash.com/photo-1687813629467-6b59c74236aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z29sZGNvYXN0JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##  ->Code references
+custom scrollbar - https://www.geeksforgeeks.org/how-to-change-style-of-scrollbar-using-tailwind-css/
 
-### `npm run eject`
+navbar hide on scrolling - https://stackoverflow.com/questions/69473259/how-to-show-or-hide-navbar-when-scroll-use-react-js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+text on image hover - https://stackoverflow.com/questions/65917029/tailwind-css-display-text-on-image-hover
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+regex for password input validation - https://stackoverflow.com/questions/12090077/javascript-regular-expression-password-validation-having-special-characters
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+int date time format - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/format
