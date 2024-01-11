@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7153fc3a.css",
+    "main.js": "/static/js/main.ee8d5c7e.js",
+    "static/media/banner4.png": "/static/media/banner4.85af36016bb7ca9959a3.png",
+    "static/media/banner2.png": "/static/media/banner2.2c34e797fe28e009eb4c.png",
+    "static/media/banner3.png": "/static/media/banner3.2e5ab40a36658e9fbbf5.png",
+    "static/media/banner1.png": "/static/media/banner1.98fb7fa6ec1c40026f07.png",
+    "static/media/saw.webp": "/static/media/saw.309aa2766211b0b8b529.webp",
+    "static/media/meg2.jpg": "/static/media/meg2.59fdd53be4264b2fc9bc.jpg",
+    "static/media/Opp.jpeg": "/static/media/Opp.e709378cb9c25c0fe3dd.jpeg",
+    "static/media/MID.jpeg": "/static/media/MID.6ead50e4dac6f1b7fa21.jpeg",
+    "static/media/johnwick.jpg": "/static/media/johnwick.d854813e3b3448743671.jpg",
+    "static/media/indianajones.jpeg": "/static/media/indianajones.dec4e359347ca83db7c4.jpeg",
+    "static/media/Barbie.webp": "/static/media/Barbie.9f92fc5c60fca95e2018.webp",
+    "static/media/TTM.jpeg": "/static/media/TTM.5c63c1632df811470d01.jpeg",
+    "static/media/elemental.jpg": "/static/media/elemental.5cbf36ea92257c291cad.jpg",
+    "static/media/fastx.jpeg": "/static/media/fastx.dc5216a175ca1fa892fd.jpeg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.7153fc3a.css.map": "/static/css/main.7153fc3a.css.map",
+    "main.ee8d5c7e.js.map": "/static/js/main.ee8d5c7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7153fc3a.css",
+    "static/js/main.ee8d5c7e.js"
+  ]
+}
